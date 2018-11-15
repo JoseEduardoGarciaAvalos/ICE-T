@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Test</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>v0qfe3c8oqge</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Dictionary" version="1">Dictionary</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="PlayLive" id="HTML_iFrame" version="2">HTML | iFrame</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Rex.Rainbow" id="Rex_CSV" version="1">CSV</plugin>
+        <plugin author="Rex.Rainbow" id="Rex_Hash" version="0.5">JSON</plugin>
+        <plugin author="Rex.Rainbow" id="Rex_PatternGen" version="0.100000001">Gashapon</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="R0J0hound" id="c2canvas" version="2">Canvas</plugin>
+        <plugin author="Rex.Rainbow" id="rex_TagText" version="0.100000001">Tag Text</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Rex.Rainbow" id="Rex_canvas_chart_pie" version="1">Pie chart</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar only</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type global="1" name="zgui" sid="717041592163577">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="ID" sid="885658507136140" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="10" loop="0" name="GUI" pingpong="0" repeatcount="1" repeatto="0" sid="246837122829959" speed="0">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\pensamiento.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501114" original-source="G:\OneDrive\Personal\proyecto GUI\- RECURSOS v2\pergamino grande.png">
+                        <collision-poly>
+                            <point x="0.0291667" y="0.0467706" />
+                            <point x="0.5" y="0.00890869" />
+                            <point x="0.836111" y="0.262806" />
+                            <point x="0.815278" y="0.498886" />
+                            <point x="0.959722" y="0.935412" />
+                            <point x="0.5" y="0.98441" />
+                            <point x="0.156944" y="0.74833" />
+                            <point x="0.158333" y="0.498886" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\OneDrive\Personal\proyecto GUI\- RECURSOS v2\boton continuar.png">
+                        <collision-poly>
+                            <point x="0.103774" y="0.229167" />
+                            <point x="0.5" y="0" />
+                            <point x="0.976415" y="0.0520833" />
+                            <point x="0.882075" y="0.739583" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0235849" y="0.947917" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\OneDrive\Personal\proyecto GUI\- RECURSOS\figura inhabilitado.png">
+                        <collision-poly>
+                            <point x="0.103774" y="0.229167" />
+                            <point x="0.5" y="0" />
+                            <point x="0.976415" y="0.0520833" />
+                            <point x="0.882075" y="0.739583" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0235849" y="0.947917" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\avatar.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\pensamiento.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+                <animation framecount="27" loop="0" name="letras" pingpong="0" repeatcount="1" repeatto="0" sid="692928436323486" speed="0">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\Admiración.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\A.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\B.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\C.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\D.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\E.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\F.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\G.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\H.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\I.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\J.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\K.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\L.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\M.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\N.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\O.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\P.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\Q.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\R.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\S.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\T.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\U.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\V.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\W.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\X.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\Y.png" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="F:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEST\Z.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="Diccionario" sid="699285576285704">
+            <plugin id="Dictionary" />
+        </object-type>
+        <object-type name="Funcion" sid="108178021245177">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="IFrame" sid="439587251931649">
+            <plugin id="HTML_iFrame" />
+        </object-type>
+        <object-type global="1" name="Patron" sid="383499002935850">
+            <plugin id="Rex_PatternGen" />
+        </object-type>
+        <object-type global="1" name="CSV" sid="474461775892773">
+            <plugin id="Rex_CSV" />
+        </object-type>
+        <object-type global="1" name="Matriz" sid="613512210765688">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Navegador" sid="466041190326996">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type global="1" name="zmosaico" sid="253610426504216">
+            <plugin id="TiledBg" />
+            <instance-variables>
+                <instance-variable name="ID" sid="558025293471295" type="number" />
+            </instance-variables>
+            <texture original-source="H:\OneDrive\Tesis\APLICACIÓN\PROCESO\proyecto GUI\- TEMA CONSTRUCCIÓN\muro de ladrillos.png" />
+        </object-type>
+        <object-type name="Mouse" sid="842246848002439">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Canvas" sid="575749049964786">
+            <plugin id="c2canvas" />
+            <behaviors>
+                <behavior-type name="PieChart" sid="296785255893999">
+                    <behavior id="Rex_canvas_chart_pie" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type global="1" name="Hash" sid="630433447151380">
+            <plugin id="Rex_Hash" />
+        </object-type>
+        <object-type name="AJAX" sid="829865476781843">
+            <plugin id="AJAX" />
+        </object-type>
+        <object-type global="1" name="Secuencia" sid="466588406599852">
+            <plugin id="Rex_PatternGen" />
+        </object-type>
+        <object-type global="1" name="zetiqueta" sid="649252567474003">
+            <plugin id="rex_TagText" />
+            <instance-variables>
+                <instance-variable name="ID" sid="346702592488243" type="number" />
+            </instance-variables>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>preguntas.xml</layout>
+        <layout>resultado.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>preguntas.xml</event-sheet>
+        <event-sheet>resultado.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Funcion" uid="1" />
+        <global-instance type="Navegador" uid="5" />
+        <global-instance type="Mouse" uid="9" />
+        <global-instance type="AJAX" uid="13" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file name="preguntas.csv" />
+        <file name="test.html" />
+        <file name="estilos.css" />
+    </files-folder>
+</c2project>

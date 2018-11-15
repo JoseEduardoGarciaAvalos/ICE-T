@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>resultado</name>
+    <events>
+        <event-block sid="370741811551880">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="811970868653057" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="346526714458917">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set font size" sid="776732878032647" type="zetiqueta">
+                            <param id="0" name="Size (pt)">16</param>
+                        </action>
+                        <action behavior="PieChart" id="1" name="Draw" sid="605365198745403" type="Canvas" />
+                        <action behavior="PieChart" id="13" name="Clean all data" sid="164839155221293" type="Canvas" />
+                        <action behavior="PieChart" id="4" name="Add data" sid="599466655098354" type="Canvas">
+                            <param id="0" name="Value">gBueno</param>
+                            <param id="1" name="Color">&quot;rgb(35,31,223)&quot;</param>
+                        </action>
+                        <action behavior="PieChart" id="4" name="Add data" sid="503863701012121" type="Canvas">
+                            <param id="0" name="Value">gMalo</param>
+                            <param id="1" name="Color">&quot;rgb(225,35,29)&quot;</param>
+                        </action>
+                        <action behavior="PieChart" id="1" name="Draw" sid="873074854636140" type="Canvas" />
+                    </actions>
+                </event-block>
+                <event-block sid="468586608888312">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="503940746887293" type="zetiqueta">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <variable constant="1" name="AVISOS1" sid="951271997429267" static="0" type="text">Puedes ver los videos así podrás acertar más las respuestas;Podrás ver las respuestas correctas si vas a los minijuegos;Podrás entender mejor las preguntas si vas a las historietas</variable>
+                        <variable constant="1" name="AVISOS2" sid="131197871315919" static="0" type="text">Así se hace;Lo has conseguido;Excelente</variable>
+                        <variable constant="1" name="AVISOS3" sid="323765734191634" static="0" type="text">Wooo puntuación perfecta, eres increible</variable>
+                        <variable constant="0" name="aviso" sid="532740873110858" static="0" type="text"></variable>
+                        <event-block sid="333032806609726">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="430415630126959" type="System">
+                                    <param id="0" name="Variable">gBueno</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">gMalo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="321450597338823" type="System">
+                                    <param id="0" name="Variable">aviso</param>
+                                    <param id="1" name="Value">tokenat(AVISOS1,random(3),&quot;;&quot;)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="789362451280108">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="697886058764059" type="System" />
+                                <condition id="-14" name="Compare variable" sid="551196857266601" type="System">
+                                    <param id="0" name="Variable">gBueno</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">gMalo</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="641833355351852">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="767585045633337" type="System">
+                                            <param id="0" name="Variable">gMalo</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="759081905639559" type="System">
+                                            <param id="0" name="Variable">aviso</param>
+                                            <param id="1" name="Value">AVISOS3</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="456681580865184">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="922429691347931" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="294060848812548" type="System">
+                                            <param id="0" name="Variable">aviso</param>
+                                            <param id="1" name="Value">tokenat(AVISOS2,random(3),&quot;;&quot;)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="830884917048031">
+                            <conditions />
+                            <actions>
+                                <action id="0" name="Set text" sid="356402687876539" type="zetiqueta">
+                                    <param id="0" name="Text">aviso</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
