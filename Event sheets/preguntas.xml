@@ -65,7 +65,7 @@
                     <conditions />
                     <actions>
                         <action id="3" name="Set font size" sid="256411196585077" type="zetiqueta">
-                            <param id="0" name="Size (pt)">16</param>
+                            <param id="0" name="Size (pt)">12</param>
                         </action>
                         <action id="-9" name="Set value" sid="744699232071107" type="System">
                             <param id="0" name="Variable">gTest</param>

@@ -13,7 +13,7 @@
                     <conditions />
                     <actions>
                         <action id="3" name="Set font size" sid="776732878032647" type="zetiqueta">
-                            <param id="0" name="Size (pt)">16</param>
+                            <param id="0" name="Size (pt)">12</param>
                         </action>
                         <action behavior="PieChart" id="1" name="Draw" sid="605365198745403" type="Canvas" />
                         <action behavior="PieChart" id="13" name="Clean all data" sid="164839155221293" type="Canvas" />
@@ -36,7 +36,11 @@
                             <param id="2" name="Value">5</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="3" name="Set font size" sid="126583227629594" type="zetiqueta">
+                            <param id="0" name="Size (pt)">16</param>
+                        </action>
+                    </actions>
                     <sub-events>
                         <variable constant="1" name="AVISOS1" sid="951271997429267" static="0" type="text">Puedes ver los videos así podrás acertar más las respuestas;Podrás ver las respuestas correctas si vas a los minijuegos;Podrás entender mejor las preguntas si vas a las historietas</variable>
                         <variable constant="1" name="AVISOS2" sid="131197871315919" static="0" type="text">Así se hace;Lo has conseguido;Excelente</variable>
@@ -105,6 +109,20 @@
                             </actions>
                         </event-block>
                     </sub-events>
+                </event-block>
+                <event-block sid="710357905280895">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="365026091424434" type="zetiqueta">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="140239176672711" type="zetiqueta">
+                            <param id="0" name="Text">&quot;Resultado&quot;</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-block>
