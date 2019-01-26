@@ -17,16 +17,45 @@
                         </action>
                         <action behavior="PieChart" id="1" name="Draw" sid="605365198745403" type="Canvas" />
                         <action behavior="PieChart" id="13" name="Clean all data" sid="164839155221293" type="Canvas" />
-                        <action behavior="PieChart" id="4" name="Add data" sid="599466655098354" type="Canvas">
-                            <param id="0" name="Value">gBueno</param>
-                            <param id="1" name="Color">&quot;rgb(35,31,223)&quot;</param>
-                        </action>
-                        <action behavior="PieChart" id="4" name="Add data" sid="503863701012121" type="Canvas">
-                            <param id="0" name="Value">gMalo</param>
-                            <param id="1" name="Color">&quot;rgb(225,35,29)&quot;</param>
-                        </action>
-                        <action behavior="PieChart" id="1" name="Draw" sid="873074854636140" type="Canvas" />
                     </actions>
+                    <sub-events>
+                        <event-block sid="269686683528351">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="854546913476808" type="System">
+                                    <param id="0" name="Variable">gBueno</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="PieChart" id="4" name="Add data" sid="599466655098354" type="Canvas">
+                                    <param id="0" name="Value">gBueno</param>
+                                    <param id="1" name="Color">&quot;rgb(35,31,223)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="900083872985202">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="980353931057786" type="System">
+                                    <param id="0" name="Variable">gMalo</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="PieChart" id="4" name="Add data" sid="503863701012121" type="Canvas">
+                                    <param id="0" name="Value">gMalo</param>
+                                    <param id="1" name="Color">&quot;rgb(225,35,29)&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="990710218586460">
+                            <conditions />
+                            <actions>
+                                <action behavior="PieChart" id="1" name="Draw" sid="873074854636140" type="Canvas" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
                 <event-block sid="468586608888312">
                     <conditions>
@@ -121,6 +150,34 @@
                     <actions>
                         <action id="0" name="Set text" sid="140239176672711" type="zetiqueta">
                             <param id="0" name="Text">&quot;Resultado&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="967036850085395">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="114346174155202" type="zetiqueta">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">60</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="399825546131298" type="zetiqueta">
+                            <param id="0" name="Text">(gBueno = 0 ? &quot;&quot;:gBueno)&amp;&quot;0% Correcto&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="383426866690891">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="325509851843705" type="zetiqueta">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">61</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="160843033407508" type="zetiqueta">
+                            <param id="0" name="Text"> (gMalo = 0 ? &quot;&quot;:gMalo)&amp;&quot;0% Incorrecto&quot;</param>
                         </action>
                     </actions>
                 </event-block>

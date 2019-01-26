@@ -226,7 +226,7 @@
                         <background-color></background-color>
                     </properties>
                     <instance-variables>
-                        <ID>0</ID>
+                        <ID>60</ID>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -262,7 +262,7 @@
                         <background-color></background-color>
                     </properties>
                     <instance-variables>
-                        <ID>0</ID>
+                        <ID>61</ID>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
